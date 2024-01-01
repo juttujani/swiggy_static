@@ -1,0 +1,453 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .box1 {
+            height: 80vh;
+            width: 60%;
+           
+        }
+
+        .box2 {
+            height: 80vh;
+            width: 40%;
+        }
+
+        .header {
+            margin-top: 60px;
+            display: flex;
+        }
+
+        .header img {
+            margin-left: 60px;
+        }
+
+        .head2 {
+            margin-left: auto;
+            margin-right: 70px;
+            padding: 5px;
+        }
+
+        .head2 button {
+            padding: 10px 15px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .head2 a {
+            margin-right: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header2 {
+            margin-right: auto;
+            margin-top: 50px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 50px;
+            color: rgb(53, 53, 53);
+        }
+        .header2 h1{
+            font-size: 5vmin;
+        }
+
+        .header2 p {
+            font-size: 5vmin;
+            margin-top: 10px;
+        }
+
+        input {
+            margin-left: 15px;
+            height: 50px;
+            width: 430px;
+            margin-top: 40px;
+            font-size: 17px;
+            padding-left: 30px;
+            border: 1px solid orange;
+        }
+
+        .search button {
+            padding: 18.2px;
+            position: absolute;
+            margin-top: 40px;
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+
+            border: none;
+        }
+
+        .cities {
+            padding-left: 51px;
+            margin-top: 40px;
+            color: rgb(106, 104, 104);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        .cities p {
+            margin-top: 30px;
+            word-spacing: 5px;
+            font-size: 16px;
+            color: rgb(75, 74, 74);
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            background-color: rgb(39, 29, 29);
+            height: 517px;
+            width: 100%;
+        }
+
+        .container2 .info p {
+            padding-top: 5px;
+            font-size: 5vmin;
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card img {
+            height: 260px;
+        }
+
+        .card .info {
+            width: 300px;
+            height: 200px;
+
+        }
+
+        .info h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding-top: 40px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .info h2 {
+            font-size: 4vmin;
+            font-family: Arial, Helvetica, sans-serif;
+            word-spacing: 10px;
+            padding-top: 100px;
+            color: orangered;
+        }
+
+        .container3 .info p {
+            padding-top: 20px;
+            font-size: 5vmin;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container3 {
+            height: 450px;
+            display: flex;
+        }
+
+        .container3 .info {
+            padding: 0 30px;
+            width: 50%;
+
+        }
+
+        .images {
+            display: flex;
+        }
+
+        .buttons .btn {
+            height: 50px;
+            width: 190px;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .footer {
+            height: 450px;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .downfooter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: black;
+            color: white;
+            padding: 0;
+            margin: 0;
+            flex-direction: row;
+            text-align: center;
+            padding: 0px 0px 10px;
+        }
+
+        .downfooter2 {
+            background-color: black;
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            align-items: center;
+
+            padding-bottom: 20px;
+        }
+
+        .footer dt {
+            font-size: 15px;
+            color: rgb(94, 94, 94);
+            padding-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .footer ul {
+            padding-top: 100px;
+            padding-left: 60px;
+        }
+
+        .footer li {
+            padding: 10px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style-type: none;
+        }
+
+        .contact {
+            margin-left: 130px;
+
+        }
+
+        .footer img {
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+
+        .footer .image1 {
+            padding-top: 100px;
+        }
+
+        .image1 img:hover {
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+
+        .img2 {
+            padding-top: 30px;
+        }
+
+        .img2 img:hover {
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+
+        .downfooter2>div img {
+            padding: 0px 10px 0px 10px;
+        }
+
+        input {
+            outline: none;
+        }
+
+        .downfooter2 div img:hover {
+            transform: scale(1.25);
+            transition: all 1s ease;
+        }
+        @media screen and (max-width:620px) {
+            
+            .box1{
+                width: 100%;
+            }
+            .box2{
+                display: none;
+            }
+            .slogo{
+                width: 30%;
+                margin-left: auto;
+            }
+            .container2{
+                display: flex;
+                flex-direction: column;
+                height: 200vh;
+                width: 100%;
+                background-color:white;
+            }
+            .container3{
+                display: flex;
+                flex-direction: column;
+               
+                height: 100vh;
+               
+            }
+            .downfooter2{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .images{
+                display: flex;
+                flex-direction: row;
+                background-color:orangered;
+                height: 50vh;
+            }
+            .images img{
+                width: 50%;
+                height: 100%;
+            }
+            .images1 img{
+                display: flex;
+                flex-direction: column;
+                height: 90%;
+            }
+            .footer{
+                height: 150vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                font-size: 12px;
+            }
+            .playlogo1{
+                /* position: absolute;
+                right: 0; */
+                
+                width: 100%;
+            }
+            .playlogo{
+                width: 100%;
+            }
+            .search{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+            .search input{
+                width: 70%;
+                border-radius: 8px;
+                margin-right: 120px;
+                padding-left: 10px;
+                font-size: 16px;
+                
+            }
+            .search button{
+                border-radius: 6px;
+                height: 50px;
+                padding: 0px 5px;
+                margin-right: 40px;
+            }
+            .head2{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .head2 button{
+                border-radius: 26px;
+                height: 50px;
+                padding: 0px 15px;
+                margin: 0 10px;
+            }
+            .head2 .login{
+                background-color: orangered;
+                border: none;
+                color: whitesmoke;
+            }
+            .head2 .Signup{
+                background-color:blue;
+                border: none;
+                color: whitesmoke;
+            }
+            .slogo2{
+                display: none;
+            }
+            .all_logos{
+                margin-top: 7px;
+            }
+            .hrl{
+                display: none;
+            }
+            .downfooter2{
+                background-color: orangered;
+            }
+            .card{
+                
+                background-color:rgb(44, 43, 44);
+                border-radius: 10px;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 30%;
+                font-size: 0.5vw;
+            }
+            .info h3{
+                font-size: 10px;
+                text-align: center;
+            }
+            .info p {
+                font-size: 0.5vw;
+                text-align: center;
+            }
+            .image1 img{
+                display: none;
+            }
+            
+            .matter{
+                /* text-align: left; */
+                padding: 0 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .matter p{
+                text-align: left; 
+            }
+            /* .contact1{
+                margin-top: 50px;
+            } */
+            .part1{
+                display: flex;
+            }
+            .contact3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            
+            
+            
+            
+            
+        }
+
+       
+        
+   
+        
